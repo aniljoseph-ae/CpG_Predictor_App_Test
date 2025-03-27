@@ -1,0 +1,35 @@
+
+
+Best_hyperparameters: {
+    'embedding_dim': 64, 
+    'hidden_dim': 256, 
+    'num_layers': 2, 
+    'dropout': 0.33262129231366233, 
+    'lr': 0.0008572034020671933, 
+    'weight_decay': 3.4321573869941195e-06, 
+    'batch_size': 32}
+
+
+
+2025-03-27 11:01:27,961 [INFO] Best validation loss: 0.006692525659066935
+2025-03-27 11:01:38,752 [INFO] Epoch 1/20 | Train Loss: 9.9137 | Val Loss: 6.6298 | R²: -0.0446 | MAE: 2.1246 | MSE: 6.6767
+2025-03-27 11:01:49,595 [INFO] Epoch 2/20 | Train Loss: 7.1170 | Val Loss: 6.3417 | R²: 0.0031 | MAE: 2.0214 | MSE: 6.3717
+2025-03-27 11:02:00,528 [INFO] Epoch 3/20 | Train Loss: 7.1189 | Val Loss: 7.3768 | R²: -0.1645 | MAE: 2.2373 | MSE: 7.4430
+2025-03-27 11:02:11,232 [INFO] Epoch 4/20 | Train Loss: 4.3013 | Val Loss: 1.1028 | R²: 0.8277 | MAE: 0.9318 | MSE: 1.1014
+2025-03-27 11:02:21,877 [INFO] Epoch 5/20 | Train Loss: 0.5575 | Val Loss: 0.0854 | R²: 0.9866 | MAE: 0.2169 | MSE: 0.0857
+2025-03-27 11:02:32,579 [INFO] Epoch 6/20 | Train Loss: 0.2966 | Val Loss: 0.0727 | R²: 0.9887 | MAE: 0.2059 | MSE: 0.0724
+2025-03-27 11:02:43,487 [INFO] Epoch 7/20 | Train Loss: 0.2100 | Val Loss: 0.2261 | R²: 0.9646 | MAE: 0.4283 | MSE: 0.2262
+2025-03-27 11:02:54,656 [INFO] Epoch 8/20 | Train Loss: 0.2125 | Val Loss: 0.1986 | R²: 0.9693 | MAE: 0.4013 | MSE: 0.1963
+2025-03-27 11:03:05,533 [INFO] Epoch 9/20 | Train Loss: 0.1774 | Val Loss: 0.1936 | R²: 0.9696 | MAE: 0.4002 | MSE: 0.1943
+2025-03-27 11:03:16,580 [INFO] Epoch 10/20 | Train Loss: 0.1221 | Val Loss: 0.0171 | R²: 0.9973 | MAE: 0.0947 | MSE: 0.0171
+2025-03-27 11:03:27,307 [INFO] Epoch 11/20 | Train Loss: 0.1155 | Val Loss: 0.0284 | R²: 0.9957 | MAE: 0.1277 | MSE: 0.0277
+2025-03-27 11:03:37,999 [INFO] Epoch 12/20 | Train Loss: 0.1142 | Val Loss: 0.0121 | R²: 0.9981 | MAE: 0.0795 | MSE: 0.0121
+2025-03-27 11:03:48,815 [INFO] Epoch 13/20 | Train Loss: 0.1111 | Val Loss: 0.0213 | R²: 0.9967 | MAE: 0.1097 | MSE: 0.0213
+2025-03-27 11:04:00,115 [INFO] Epoch 14/20 | Train Loss: 0.0995 | Val Loss: 0.0223 | R²: 0.9965 | MAE: 0.1160 | MSE: 0.0225
+2025-03-27 11:04:10,805 [INFO] Epoch 15/20 | Train Loss: 0.1089 | Val Loss: 0.0500 | R²: 0.9921 | MAE: 0.1955 | MSE: 0.0504
+2025-03-27 11:04:21,581 [INFO] Epoch 16/20 | Train Loss: 0.0986 | Val Loss: 0.0178 | R²: 0.9973 | MAE: 0.1108 | MSE: 0.0174
+2025-03-27 11:04:32,381 [INFO] Epoch 17/20 | Train Loss: 0.0895 | Val Loss: 0.0144 | R²: 0.9977 | MAE: 0.0942 | MSE: 0.0146
+2025-03-27 11:04:32,381 [INFO] Early stopping triggered.
+2025-03-27 11:04:32,394 [INFO] Best validation loss achieved: 0.0121
+2025-03-27 11:04:33,143 [INFO] Test Loss: 0.0165 | Test R²: 0.9977 | Test MAE: 0.0955 | Test MSE: 0.0166
+2025-03-27 11:04:33,158 [INFO] Prediction for ATGCGCGTANCGCCGNCCGGCGCGTANCTACGGCGCGTANCCGCGTANCGCCGNCCGGCGCGTANCTANCGCGGCGCGTAGCGTANCCGCGTANNCCGCGTANCAT: 25.32, Actual: 26
