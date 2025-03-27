@@ -89,7 +89,7 @@ model = CpGPredictor(
     num_layers=2, 
     dropout=0.33262129231366233).to(device)
 
-model_path = "./models/bilstm_bahdanau_final.pt"
+model_path = "/models/bilstm_bahdanau_final.pt"
 if not os.path.exists(model_path):
     st.error(f"Model file not found at {model_path}")
     raise FileNotFoundError(f"{model_path} not found")
